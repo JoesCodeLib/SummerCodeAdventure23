@@ -11,7 +11,7 @@ Let's edit this real quick.
 
 # Commands for git
 
-## Local repo commands
+### Local repo commands
 
 - `git init` create new repo (local)
 - `git status || git commit status ` check status
@@ -21,7 +21,7 @@ Let's edit this real quick.
 - `git commit -a -m "commit name" || git commit -am "commit name"` add and commit together
 - `git log` shows history of commit
 
-## Remote repo commands
+### Remote repo commands
 
 - `git remote` List current remotes in the local repo
 - `git remote add "origin(name)" <url-to-your-github-repo>` Link remote
@@ -31,7 +31,7 @@ Let's edit this real quick.
 - `git merge` to merge remote and local
 - `git pull (origin master)` to do fetch & merge together
 
-## Branching
+### Branching
 
 - `git branch` list the branches
 - `git branch -M name` change name of branch (this case: name)
@@ -40,7 +40,7 @@ Let's edit this real quick.
 - `git checkout hello` moves into branch hello
 - `git checkout -b hello` creates hello and moves into it
 
-## Merge conflict
+### Merge conflict
 
 - `git diff` see difference
 - `git merge --abort` goes back to state before merge
