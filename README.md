@@ -6,3 +6,5 @@ Modifying file
 git commit -a -m "name"
 
 Where does this file go?
+
+Let's edit this real quick. 
