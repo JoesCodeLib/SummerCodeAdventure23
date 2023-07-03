@@ -7,4 +7,9 @@ git commit -a -m "name"
 
 Where does this file go?
 
-Let's edit this real quick. 
+Let's edit this real quick.
+
+# Commands for git
+
+\n
+will go here.
