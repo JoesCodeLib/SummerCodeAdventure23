@@ -40,3 +40,17 @@ git commit -a -m "name"
 
 - `git diff` see difference
 - `git merge --abort` goes back to state before merge
+
+### Advanced Git
+
+- `git reset` unstage all staged files (don't use for github pushed)
+- `git reset <commit-ID>` rolls back to previous commit (use --hard to delete dir)
+- `git revert <commit-ID> -m "revert name"` does reset, but better for remote (github)
+- `git commit --amend -m "better msg"` change commit message
+- `git commit --amend --no-edit` when file wasn't added to stage
+- `git stash || git stash pop` temp stash but doesn't modify. pop brings back most recent stash
+- `git stash save name` gives stash a name
+- `git stash list` lists all the stash
+- `git stash apply 'index'` apply stash by index in stash list
+- `git checkout feature || git rebase master` from a feature branch, rebase the latest changes from the master branch
+- `git rebase master --interactive` see commits and change pick to squash to make them into one commit
