@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: #FAF9F6;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+li {
+    padding-left: 30px
+}

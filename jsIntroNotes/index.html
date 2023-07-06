@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS intro Notes</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
 <script src="app.js"></script>
 <body>
-    <h1>Notes</h1>
+    <h1>Notes about JS</h1>
     <h4>Prototype Chain</h4>
     <li>Prototype enables inheriting properties and methods from other objects. Every object = 1 prototype. If more than 2, null. </li>
     <li>Don't really have to know</li>
@@ -22,5 +23,32 @@
 
     <h4>Optional Chaining</h4>
     <li>Use question mark "person?.name" to see if object is undefined. </li>
+
+    <h4>Nullish Coalescing</h4>
+    <li>Nullish Coalescing operator: ??</li>
+    <li>similar to || 'or' operator but only returns right hand side if left is null or undefined</li>
+
+    <h4>Higher order function *Important*</h4>
+    <li>Functions could be declarative or expression</li>
+    <li>function sayHi(message){
+        return "hi" + message
+        }</li>
+    <li>const sayHi = function(message){return "hi" + message}</li>
+    <li>declare for global, express for local</li>
+    <li>Higher order function = 1. function who takes a function 2. function that returns a function</li>
+    <li>Could be expressed with arrow function => to make it easier and efficient. (using anony functions)</li>
+    
+    <h4>Closures</h4>
+    <li>A function that relies on global variables or basically variables that are outside its own scope.</li>
+    <li>Does require more memory and power. </li>
+    <li>Three dots: Closure is function combined with its outer state or lexical environment. </li>
+    <li>Something about encapsulation but idk</li>
+
+    <h4>Arrays in JS</h4>
+    <li>"const arr = Array(100).fill(0)" &emsp; This fills an array with 100 things with all 0's</li>
+    <li>Can also add .map((_, i) => i +1) in-order to traverse and give all values their index</li>
+    <li>Set is like an array but can't be indexed and only hold unique values.</li>
+    <li>Could use set like "const unique = [...new Set(arr)];" in order to remove duplicates.</li>
+    
 </body>
 </html>
